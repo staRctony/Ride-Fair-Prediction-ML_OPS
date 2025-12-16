@@ -1,0 +1,22 @@
+[project]
+name = "mlops-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.41.2",
+    "evidently>=0.3.3",
+    "fastapi>=0.121.3",
+    "h2o>=3.46.0.8",
+    "mlflow>=3.5.1",
+    "nannyml>=0.6.1",
+    "numpy>=1.26.4",
+    "pandas>=1.5.3",
+    "polars>=1.35.2",
+    "psycopg2-binary>=2.9.11",
+    "pyarrow>=8.0.0",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.7.2",
+    "uvicorn>=0.38.0",
+]
